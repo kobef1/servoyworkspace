@@ -1,0 +1,16 @@
+[
+{
+encapsulation:0,
+mimeType:"text/css",
+name:"custom_servoy_theme_properties.less",
+typeid:37,
+uuid:"CB521EEC-B8C8-4F68-A8BD-9A31C3F0A5E8"
+},
+{
+encapsulation:0,
+mimeType:"text/css",
+name:"Hardware.less",
+typeid:37,
+uuid:"541C8A96-867E-4599-A543-9BDA783195EF"
+}
+]

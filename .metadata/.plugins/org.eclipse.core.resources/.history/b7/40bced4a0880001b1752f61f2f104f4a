@@ -1,0 +1,47 @@
+
+/**
+ * @type {String}
+ *
+ * @properties={typeid:35,uuid:"8E4DBEFD-B662-4D55-A6CB-8D77FD9BA1A3"}
+ */
+var prod;
+/**
+ * @type {String}
+ *
+ * @properties={typeid:35,uuid:"2B33BDAB-CD16-45DB-9AF3-CE15B92E411B"}
+ */
+var pri;
+/**
+ * @type {String}
+ *
+ * @properties={typeid:35,uuid:"7D26E631-32B0-4B7B-8280-73C6996F1384"}
+ */
+var quantity; 
+
+/**
+ * TODO generated, please specify type and doc for the params
+ * @param event
+ *
+ * @properties={typeid:24,uuid:"A216074F-7329-49E7-93A3-B00BF31B90AD"}
+ */
+function onAction(event) {
+	// TODO Auto-generated method stub
+	foundset.prodname = prod;
+	foundset.price = pri;
+	foundset.quan = quantity;
+	foundset.newRecord();
+	databaseManager.saveData();
+	application.output("saved");
+	
+}
+
+/**
+ * Handle focus gained event of the element.
+ *
+ * @param {JSEvent} event the event that triggered the action
+ *
+ * @properties={typeid:24,uuid:"37211E50-4B6A-435E-BAEE-A37432BB39C0"}
+ */
+function onFocusGained(event) {
+	// TODO Auto-generated method stub
+}

@@ -1,0 +1,17 @@
+customProperties:"formComponent:false,\
+useCssPosition:true",
+dataSource:"db:/new_postgresql/product",
+encapsulation:108,
+items:[
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"A56B46AA-2E5C-46ED-886C-58AFB0AB4EE4"
+}
+],
+name:"Validation",
+navigatorID:"-1",
+showInMenu:true,
+typeid:3,
+uuid:"54C14B98-B418-49E9-A124-F548EC4B8C29"

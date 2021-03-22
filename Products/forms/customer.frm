@@ -1,0 +1,10 @@
+customProperties:"formComponent:false,\
+layout:{\
+responsive:true\
+}",
+encapsulation:108,
+name:"customer",
+navigatorID:"-1",
+showInMenu:true,
+typeid:3,
+uuid:"67A8597A-E21C-4ED7-BCE8-517EE7554EAF"

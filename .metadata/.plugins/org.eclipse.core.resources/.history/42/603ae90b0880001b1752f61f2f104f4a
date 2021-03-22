@@ -1,0 +1,14 @@
+
+var prod;
+var pri;
+var quantity; 
+
+function onAction(event) {
+	// TODO Auto-generated method stub
+	foundset.prodname = prod;
+	foundset.price = pri;
+	foundset.quan =quantity;
+	foundset.newRecord();
+	databaseManage.saveData();
+	
+}
